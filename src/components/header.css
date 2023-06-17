@@ -1,7 +1,10 @@
 header {
-  background-color: #333;
+  background-color: #333333b4;
   color: #fff;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header h1 {
@@ -16,7 +19,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin-right: 10px;
 }
 
 nav ul li a {
@@ -25,5 +27,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  color: red;
 }

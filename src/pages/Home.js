@@ -1,7 +1,7 @@
 import React from "react";
 import NewsList from "../components/NewsList";
 import Header from "../components/Header";
-
+import "./home.css";
 const Home = () => {
   return (
     <div>

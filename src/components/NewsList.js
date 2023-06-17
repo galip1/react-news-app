@@ -10,7 +10,7 @@ const NewsList = () => {
       const response = await axios.get("https://newsapi.org/v2/top-headlines", {
         params: {
           country: "us",
-          apiKey: "your_Api", // Kendi API anahtarınızı buraya ekleyin
+          apiKey: "your-api", // Kendi API anahtarınızı buraya ekleyin
         },
       });
       setNews(response.data.articles);

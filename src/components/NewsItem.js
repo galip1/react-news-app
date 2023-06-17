@@ -1,14 +1,16 @@
 import React from "react";
-
+import "./newsItem.css";
 const NewsItem = ({ news }) => {
   return (
-    <div>
-      <h2>{news.title}</h2>
-      <p>{news.description}</p>
-      <img src={news.urlToImage} alt={news.title} />
-      <a href={news.url} target="_blank" rel="noopener noreferrer">
-        Read More
-      </a>
+    <div className="news-item">
+      <div>
+        <h2>{news.title}</h2>
+        <p>{news.description}</p>
+        <a href={news.url} target="_blank" rel="noopener noreferrer">
+          Read More
+        </a>
+      </div>
+      <img className="news-img" src={news.urlToImage} alt={news.title} />
     </div>
   );
 };
