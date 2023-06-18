@@ -4,7 +4,16 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  @media (max-width: 576px) {
+    font-size: 0.8rem;
+  }
 }
 .news-img {
   width: 300px;
+  @media (max-width: 576px) {
+    width: 200px;
+  }
+}
+.read-more:hover {
+  columns: red;
 }

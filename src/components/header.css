@@ -5,6 +5,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 576px) {
+    font-size: 0.6rem;
+  }
 }
 
 header h1 {
@@ -15,6 +18,8 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
 nav ul li {

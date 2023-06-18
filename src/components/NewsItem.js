@@ -6,7 +6,12 @@ const NewsItem = ({ news }) => {
       <div>
         <h2>{news.title}</h2>
         <p>{news.description}</p>
-        <a href={news.url} target="_blank" rel="noopener noreferrer">
+        <a
+          className="read-more"
+          href={news.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Read More
         </a>
       </div>
