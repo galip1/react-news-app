@@ -4,6 +4,7 @@ import NewsItem from "./NewsItem";
 
 const NewsList = () => {
   const [news, setNews] = useState([]);
+
   useEffect(() => {
     const fetchNews = async () => {
       const response = await axios.get("https://newsapi.org/v2/top-headlines", {
