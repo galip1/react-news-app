@@ -1,7 +1,7 @@
 import React from "react";
+import "./details.css";
 
 const Details = () => {
-  
   return (
     <div>
       <h1>Details Page</h1>
